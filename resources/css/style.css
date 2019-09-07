@@ -1,0 +1,48 @@
+
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+html,
+body {
+    color: #ffffff;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/weather.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+
+}
+
+
+/* ----------------------------------------------- */
+/* TEXT */
+/* ----------------------------------------------- */
+
+#city {
+
+    padding-top: 150px;
+    text-align: center;
+    font-size: 200%;
+}
+
+#temp{
+
+    font-size: 1000%;
+}
+
+#descript {
+    font-size: 200%;
+    padding-bottom: 500px;
+}
